@@ -1,0 +1,158 @@
+/* === סגנונות כלליים === */
+.ladino-admin-page {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.ladino-admin-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.ladino-admin-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ladino-admin-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.ladino-admin-actions {
+    margin-bottom: 20px;
+}
+
+.ladino-admin-button {
+    margin-right: 10px;
+}
+
+/* === טפסים === */
+.ladino-form-section {
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.ladino-form-row {
+    margin-bottom: 15px;
+}
+
+.ladino-form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ladino-required {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+.ladino-form-field {
+    width: 100%;
+    max-width: 500px;
+}
+
+.ladino-form-submit {
+    margin-top: 20px;
+}
+
+/* === הטיות פעלים === */
+.ladino-conjugations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.ladino-tense-section {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 15px;
+    background: #fff;
+}
+
+.ladino-tense-title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.ladino-tense-description {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.ladino-conjugation-table {
+    width: 100%;
+}
+
+.ladino-conjugation-table tr td {
+    padding: 5px 0;
+}
+
+.ladino-person-label {
+    width: 80px;
+    font-weight: 600;
+}
+
+/* === רשימות === */
+.ladino-verb-list, .ladino-tenses-list {
+    margin-top: 20px;
+}
+
+.ladino-status-active {
+    color: #46b450;
+    font-weight: 600;
+}
+
+.ladino-status-inactive {
+    color: #dc3232;
+}
+
+.ladino-delete-button {
+    color: #dc3232 !important;
+}
+
+/* === סעיף העזרה === */
+.ladino-help-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f7f7f7;
+    border-left: 4px solid #0073aa;
+}
+
+.ladino-tenses-guide h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ladino-tenses-guide ul {
+    margin-left: 20px;
+}
+
+.ladino-tenses-guide ul li {
+    margin-bottom: 10px;
+}
+
+.ladino-conjugator-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.ladino-conjugator-guide-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 3px;
+    text-align: center;
+}

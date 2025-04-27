@@ -1,0 +1,471 @@
+# Copyright (C) 2025 Your Name
+# This file is distributed under the same license as the Ladino Verb Conjugator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ladino Verb Conjugator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ladino-verb-conjugator\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-22T10:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: ladino-verb-conjugator\n"
+
+#. Plugin Name of the plugin
+msgid "Ladino Verb Conjugator"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://yoursite.com/ladino-conjugator"
+msgstr ""
+
+#. Description of the plugin
+msgid "מנוע הטיית פעלים בלאדינו בתעתיק עברי"
+msgstr ""
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yoursite.com"
+msgstr ""
+
+#: admin/class-admin.php:52
+msgid "מנוע הטיית פעלים בלאדינו"
+msgstr ""
+
+#: admin/class-admin.php:53
+msgid "פעלים בלאדינו"
+msgstr ""
+
+#: admin/class-admin.php:62
+msgid "הוספת פועל חדש"
+msgstr ""
+
+#: admin/class-admin.php:261
+msgid "הפועל עודכן בהצלחה"
+msgstr ""
+
+#: admin/class-admin.php:269
+msgid "הפועל נוסף בהצלחה"
+msgstr ""
+
+#: admin/class-admin.php:294
+msgid "הפועל נמחק בהצלחה"
+msgstr ""
+
+#: admin/class-admin.php:296
+msgid "אירעה שגיאה"
+msgstr ""
+
+#: admin/partials/admin-display.php:14
+msgid "ניהול פעלים בלאדינו"
+msgstr ""
+
+#: admin/partials/admin-display.php:15
+msgid "ניהול מאגר הפעלים במנוע הטיית פעלים בלאדינו בתעתיק עברי."
+msgstr ""
+
+#: admin/partials/admin-display.php:22
+msgid "הפועל נוסף בהצלחה"
+msgstr ""
+
+#: admin/partials/admin-display.php:24
+msgid "הפועל עודכן בהצלחה"
+msgstr ""
+
+#: admin/partials/admin-display.php:26
+msgid "הפועל נמחק בהצלחה"
+msgstr ""
+
+#: admin/partials/admin-display.php:28
+msgid "אירעה שגיאה. אנא נסה שנית."
+msgstr ""
+
+#: admin/partials/admin-display.php:35
+msgid "הוספת פועל חדש"
+msgstr ""
+
+#: admin/partials/admin-display.php:39
+msgid "הגדרות"
+msgstr ""
+
+#: admin/partials/admin-display.php:48
+msgid "חיפוש פעלים:"
+msgstr ""
+
+#: admin/partials/admin-display.php:49
+msgid "חיפוש פעלים..."
+msgstr ""
+
+#: admin/partials/admin-display.php:50
+msgid "חיפוש"
+msgstr ""
+
+#: admin/partials/admin-display.php:58
+msgid "מזהה"
+msgstr ""
+
+#: admin/partials/admin-display.php:59
+msgid "פועל בלאדינו"
+msgstr ""
+
+#: admin/partials/admin-display.php:60
+msgid "תרגום לעברית"
+msgstr ""
+
+#: admin/partials/admin-display.php:61
+msgid "זמנים"
+msgstr ""
+
+#: admin/partials/admin-display.php:62
+msgid "פעולות"
+msgstr ""
+
+#: admin/partials/admin-display.php:87
+msgid "עריכה"
+msgstr ""
+
+#: admin/partials/admin-display.php:90
+msgid "מחיקה"
+msgstr ""
+
+#: admin/partials/admin-display.php:108
+msgid "עמוד %1$s מתוך %2$s"
+msgstr ""
+
+#: admin/partials/admin-display.php:118
+msgid "הקודם"
+msgstr ""
+
+#: admin/partials/admin-display.php:124
+msgid "הבא"
+msgstr ""
+
+#: admin/partials/admin-display.php:133
+msgid "לא נמצאו פעלים התואמים את החיפוש."
+msgstr ""
+
+#: admin/partials/admin-display.php:135
+msgid "אין פעלים במאגר. התחל על ידי הוספת פועל חדש."
+msgstr ""
+
+#: admin/partials/admin-display.php:145
+msgid "להטמעת מנוע הטיית הפעלים בעמודים באתר שלך, השתמש בשורטקוד:"
+msgstr ""
+
+#: admin/partials/admin-display.php:150
+msgid "המנוע זמין גם כווידג'ט באלמנטור."
+msgstr ""
+
+#: admin/partials/verb-form.php:16
+msgid "עריכת פועל: %s"
+msgstr ""
+
+#: admin/partials/verb-form.php:17
+msgid "הוספת פועל חדש"
+msgstr ""
+
+#: admin/partials/verb-form.php:22
+msgid "מלא את הפרטים להלן כדי להוסיף פועל חדש למאגר."
+msgstr ""
+
+#: admin/partials/verb-form.php:30
+msgid "חזרה לרשימת הפעלים"
+msgstr ""
+
+#: admin/partials/verb-form.php:41
+msgid "פרטי הפועל"
+msgstr ""
+
+#: admin/partials/verb-form.php:44
+msgid "פועל בלאדינו (צורת המקור)"
+msgstr ""
+
+#: admin/partials/verb-form.php:51
+msgid "הזן את צורת המקור של הפועל בלאדינו בתעתיק עברי. לדוגמה: \"אב'לאר\"."
+msgstr ""
+
+#: admin/partials/verb-form.php:56
+msgid "תרגום לעברית"
+msgstr ""
+
+#: admin/partials/verb-form.php:63
+msgid "הזן את התרגום לעברית של הפועל. לדוגמה: \"לדבר\"."
+msgstr ""
+
+#: admin/partials/verb-form.php:69
+msgid "הטיות הפועל"
+msgstr ""
+
+#: admin/partials/verb-form.php:72
+msgid "הזן את ההטיות של הפועל בכל זמן ובכל גוף."
+msgstr ""
+
+#: admin/partials/verb-form.php:104
+msgid "הערות והסברים"
+msgstr ""
+
+#: admin/partials/verb-form.php:107
+msgid "הערות (אופציונלי)"
+msgstr ""
+
+#: admin/partials/verb-form.php:110
+msgid "הוסף כאן הערות או הסברים לגבי הפועל והשימוש בו."
+msgstr ""
+
+#: admin/partials/verb-form.php:116
+msgid "עדכון הפועל"
+msgstr ""
+
+#: admin/partials/verb-form.php:116
+msgid "הוספת פועל"
+msgstr ""
+
+#: admin/partials/verb-form.php:122
+msgid "מדריך עזר להטיית פעלים בלאדינו"
+msgstr ""
+
+#: admin/partials/verb-form.php:125
+msgid "מדריך לתעתיק עברי של לאדינו"
+msgstr ""
+
+#: admin/partials/verb-form.php:127
+msgid "ב = B"
+msgstr ""
+
+#: admin/partials/verb-form.php:128
+msgid "ב' = V"
+msgstr ""
+
+#: admin/partials/verb-form.php:129
+msgid "פ = P, F"
+msgstr ""
+
+#: admin/partials/verb-form.php:130
+msgid "ג'' = CH (צ')"
+msgstr ""
+
+#: admin/partials/verb-form.php:131
+msgid "ג' = DJ (ג')"
+msgstr ""
+
+#: admin/partials/verb-form.php:132
+msgid "ז' = J (ז')"
+msgstr ""
+
+#: admin/partials/verb-form.php:133
+msgid "א, ה = A"
+msgstr ""
+
+#: admin/partials/verb-form.php:134
+msgid "ו = O, U, W"
+msgstr ""
+
+#: admin/partials/verb-form.php:135
+msgid "י = E, I, Y"
+msgstr ""
+
+#: admin/partials/verb-form.php:140
+msgid "דוגמאות להטיות פעלים"
+msgstr ""
+
+#: admin/partials/verb-form.php:141
+msgid "להלן דוגמאות להטיות של פעלים נפוצים בלאדינו:"
+msgstr ""
+
+#: admin/partials/verb-form.php:144
+msgid "אב'לאר (לדבר):"
+msgstr ""
+
+#: admin/partials/verb-form.php:145
+msgid "אני - אב'לו, אתה - אב'לאס, הוא - אב'לה"
+msgstr ""
+
+#: admin/partials/verb-form.php:146
+msgid "קומיר (לאכול):"
+msgstr ""
+
+#: admin/partials/verb-form.php:147
+msgid "אני - קומו, אתה - קומיס, הוא - קומי"
+msgstr ""
+
+#: admin/partials/verb-form.php:148
+msgid "סיר (להיות):"
+msgstr ""
+
+#: admin/partials/verb-form.php:149
+msgid "אני - סו, אתה - סוס, הוא - איס"
+msgstr ""
+
+#: admin/partials/verb-form.php:152
+msgid "לפרטים נוספים על הטיית פעלים בלאדינו, ראה את המקורות הבאים:"
+msgstr ""
+
+#: admin/partials/verb-form.php:154
+msgid "ויקיפדיה - לאדינו"
+msgstr ""
+
+#: admin/partials/verb-form.php:155
+msgid "קהילת לאדינו"
+msgstr ""
+
+#: public/class-public.php:142
+msgid "מזהה פועל לא תקין"
+msgstr ""
+
+#: public/class-public.php:149
+msgid "הפועל לא נמצא"
+msgstr ""
+
+#: public/partials/conjugator-display.php:19
+msgid "מנוע הטיית פעלים בלאדינו - תעתיק עברי"
+msgstr ""
+
+#: public/partials/conjugator-display.php:24
+msgid "מדריך לתעתיק עברי של לאדינו"
+msgstr ""
+
+#: public/partials/conjugator-display.php:26
+msgid "ב = B"
+msgstr ""
+
+#: public/partials/conjugator-display.php:27
+msgid "ב' = V"
+msgstr ""
+
+#: public/partials/conjugator-display.php:28
+msgid "פ = P, F"
+msgstr ""
+
+#: public/partials/conjugator-display.php:29
+msgid "ג'' = CH (צ')"
+msgstr ""
+
+#: public/partials/conjugator-display.php:30
+msgid "ג' = DJ (ג')"
+msgstr ""
+
+#: public/partials/conjugator-display.php:31
+msgid "ז' = J (ז')"
+msgstr ""
+
+#: public/partials/conjugator-display.php:32
+msgid "א, ה = A"
+msgstr ""
+
+#: public/partials/conjugator-display.php:33
+msgid "ו = O, U, W"
+msgstr ""
+
+#: public/partials/conjugator-display.php:34
+msgid "י = E, I, Y"
+msgstr ""
+
+#: public/partials/conjugator-display.php:40
+msgid "הקלד פועל בלאדינו או בעברית..."
+msgstr ""
+
+#: public/partials/conjugator-display.php:41
+msgid "כל הפעלים"
+msgstr ""
+
+#: public/partials/conjugator-display.php:61
+msgid "מידע על לאדינו"
+msgstr ""
+
+#: public/partials/conjugator-display.php:63
+msgid "הלאדינו (ג'ודיאו־אספניול, ג'ודזמו) היא שפה יהודית-רומאנית שהתפתחה בקרב יהודי ספרד (ספרדים) לאחר גירוש ספרד בשנת 1492. השפה מבוססת בעיקר על ספרדית עתיקה עם השפעות מעברית, ארמית, תורכית, ערבית, יוונית ושפות בלקניות."
+msgstr ""
+
+#: public/partials/conjugator-display.php:64
+msgid "בתעתיק העברי של לאדינו נעשה שימוש בסימנים מיוחדים כמו גרש (') להבחנה בין צלילים שונים, למשל ב (B) לעומת ב' (V)."
+msgstr ""
+
+#: public/partials/conjugator-display.php:65
+msgid "הטיות הפעלים בלאדינו דומות לספרדית, אך עם שינויים מסוימים שהושפעו מהשפות השונות עימן באה השפה במגע במהלך ההיסטוריה."
+msgstr ""
+
+#: public/partials/conjugator-display.php:74
+msgid "מנוע הטיית פעלים בלאדינו בתעתיק עברי © %s"
+msgstr ""
+
+#: includes/class-i18n.php:48
+msgid "הווה"
+msgstr ""
+
+#: includes/class-i18n.php:49
+msgid "עבר פשוט"
+msgstr ""
+
+#: includes/class-i18n.php:50
+msgid "עבר ממושך"
+msgstr ""
+
+#: includes/class-i18n.php:51
+msgid "עתיד"
+msgstr ""
+
+#: includes/class-i18n.php:56
+msgid "אני"
+msgstr ""
+
+#: includes/class-i18n.php:57
+msgid "אתה/את"
+msgstr ""
+
+#: includes/class-i18n.php:58
+msgid "הוא/היא"
+msgstr ""
+
+#: includes/class-i18n.php:59
+msgid "אנחנו"
+msgstr ""
+
+#: includes/class-i18n.php:60
+msgid "אתם/אתן"
+msgstr ""
+
+#: includes/class-i18n.php:61
+msgid "הם/הן"
+msgstr ""
+
+#: includes/class-i18n.php:64
+msgid "הפועל \"%s\" לא נמצא במאגר"
+msgstr ""
+
+#: includes/class-i18n.php:65
+msgid "נסה חיפוש אחר או בדוק את האיות."
+msgstr ""
+
+#: includes/class-i18n.php:66
+msgid "לא נמצאו תוצאות"
+msgstr ""
+
+#: includes/class-i18n.php:67
+msgid "כדי להוסיף זמנים נוספים (כמו עבר סמוך להווה), פנה למנהל האתר."
+msgstr ""
+
+#: includes/class-i18n.php:68
+msgid "אירעה שגיאה:"
+msgstr ""
+
+#: includes/class-i18n.php:69
+msgid "שגיאה"
+msgstr ""
+
+#: includes/class-i18n.php:70
+msgid "שתף"
+msgstr ""
+
+#: includes/class-i18n.php:71
+msgid "הועתק ללוח"
+msgstr ""
+
+#: includes/class-i18n.php:72
+msgid "יותר מדי בקשות, נא לנסות שוב בעוד זמן מה"
+msgstr ""

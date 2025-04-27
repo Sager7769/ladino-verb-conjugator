@@ -1,0 +1,236 @@
+# Copyright (C) 2025 Your Name
+# This file is distributed under the same license as the Ladino Verb Conjugator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ladino Verb Conjugator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ladino-verb-conjugator\n"
+"POT-Creation-Date: 2025-04-22T10:00:00+00:00\n"
+"PO-Revision-Date: 2025-04-22 10:00+0200\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: ladino-verb-conjugator\n"
+
+#. Plugin Name of the plugin
+msgid "Ladino Verb Conjugator"
+msgstr "מנוע הטיית פעלים בלאדינו"
+
+#. Plugin URI of the plugin
+msgid "https://yoursite.com/ladino-conjugator"
+msgstr "https://yoursite.com/ladino-conjugator"
+
+#. Description of the plugin
+msgid "מנוע הטיית פעלים בלאדינו בתעתיק עברי"
+msgstr "מנוע הטיית פעלים בלאדינו בתעתיק עברי"
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr "השם שלך"
+
+#. Author URI of the plugin
+msgid "https://yoursite.com"
+msgstr "https://yoursite.com"
+
+#: admin/class-admin.php:52
+msgid "מנוע הטיית פעלים בלאדינו"
+msgstr "מנוע הטיית פעלים בלאדינו"
+
+#: admin/class-admin.php:53
+msgid "פעלים בלאדינו"
+msgstr "פעלים בלאדינו"
+
+#: admin/class-admin.php:62
+msgid "הוספת פועל חדש"
+msgstr "הוספת פועל חדש"
+
+#: admin/class-admin.php:261
+msgid "הפועל עודכן בהצלחה"
+msgstr "הפועל עודכן בהצלחה"
+
+#: admin/class-admin.php:269
+msgid "הפועל נוסף בהצלחה"
+msgstr "הפועל נוסף בהצלחה"
+
+#: admin/class-admin.php:294
+msgid "הפועל נמחק בהצלחה"
+msgstr "הפועל נמחק בהצלחה"
+
+#: admin/class-admin.php:296
+msgid "אירעה שגיאה"
+msgstr "אירעה שגיאה"
+
+#: admin/partials/admin-display.php:14
+msgid "ניהול פעלים בלאדינו"
+msgstr "ניהול פעלים בלאדינו"
+
+#: admin/partials/admin-display.php:15
+msgid "ניהול מאגר הפעלים במנוע הטיית פעלים בלאדינו בתעתיק עברי."
+msgstr "ניהול מאגר הפעלים במנוע הטיית פעלים בלאדינו בתעתיק עברי."
+
+#: admin/partials/admin-display.php:22
+msgid "הפועל נוסף בהצלחה"
+msgstr "הפועל נוסף בהצלחה"
+
+#: admin/partials/admin-display.php:24
+msgid "הפועל עודכן בהצלחה"
+msgstr "הפועל עודכן בהצלחה"
+
+#: admin/partials/admin-display.php:26
+msgid "הפועל נמחק בהצלחה"
+msgstr "הפועל נמחק בהצלחה"
+
+#: admin/partials/admin-display.php:28
+msgid "אירעה שגיאה. אנא נסה שנית."
+msgstr "אירעה שגיאה. אנא נסה שנית."
+
+#: admin/partials/admin-display.php:35
+msgid "הוספת פועל חדש"
+msgstr "הוספת פועל חדש"
+
+#: admin/partials/admin-display.php:39
+msgid "הגדרות"
+msgstr "הגדרות"
+
+#: admin/partials/admin-display.php:48
+msgid "חיפוש פעלים:"
+msgstr "חיפוש פעלים:"
+
+#: admin/partials/admin-display.php:49
+msgid "חיפוש פעלים..."
+msgstr "חיפוש פעלים..."
+
+#: admin/partials/admin-display.php:50
+msgid "חיפוש"
+msgstr "חיפוש"
+
+#: admin/partials/admin-display.php:58
+msgid "מזהה"
+msgstr "מזהה"
+
+#: admin/partials/admin-display.php:59
+msgid "פועל בלאדינו"
+msgstr "פועל בלאדינו"
+
+#: admin/partials/admin-display.php:60
+msgid "תרגום לעברית"
+msgstr "תרגום לעברית"
+
+#: admin/partials/admin-display.php:61
+msgid "זמנים"
+msgstr "זמנים"
+
+#: admin/partials/admin-display.php:62
+msgid "פעולות"
+msgstr "פעולות"
+
+#: admin/partials/admin-display.php:87
+msgid "עריכה"
+msgstr "עריכה"
+
+#: admin/partials/admin-display.php:90
+msgid "מחיקה"
+msgstr "מחיקה"
+
+#: admin/partials/admin-display.php:108
+msgid "עמוד %1$s מתוך %2$s"
+msgstr "עמוד %1$s מתוך %2$s"
+
+#: admin/partials/admin-display.php:118
+msgid "הקודם"
+msgstr "הקודם"
+
+#: admin/partials/admin-display.php:124
+msgid "הבא"
+msgstr "הבא"
+
+#: admin/partials/admin-display.php:133
+msgid "לא נמצאו פעלים התואמים את החיפוש."
+msgstr "לא נמצאו פעלים התואמים את החיפוש."
+
+#: admin/partials/admin-display.php:135
+msgid "אין פעלים במאגר. התחל על ידי הוספת פועל חדש."
+msgstr "אין פעלים במאגר. התחל על ידי הוספת פועל חדש."
+
+#: admin/partials/admin-display.php:145
+msgid "להטמעת מנוע הטיית הפעלים בעמודים באתר שלך, השתמש בשורטקוד:"
+msgstr "להטמעת מנוע הטיית הפעלים בעמודים באתר שלך, השתמש בשורטקוד:"
+
+#: admin/partials/admin-display.php:150
+msgid "המנוע זמין גם כווידג'ט באלמנטור."
+msgstr "המנוע זמין גם כווידג'ט באלמנטור."
+
+#: admin/partials/verb-form.php:16
+msgid "עריכת פועל: %s"
+msgstr "עריכת פועל: %s"
+
+#: admin/partials/verb-form.php:17
+msgid "הוספת פועל חדש"
+msgstr "הוספת פועל חדש"
+
+#: admin/partials/verb-form.php:22
+msgid "מלא את הפרטים להלן כדי להוסיף פועל חדש למאגר."
+msgstr "מלא את הפרטים להלן כדי להוסיף פועל חדש למאגר."
+
+#: admin/partials/verb-form.php:30
+msgid "חזרה לרשימת הפעלים"
+msgstr "חזרה לרשימת הפעלים"
+
+#: admin/partials/verb-form.php:41
+msgid "פרטי הפועל"
+msgstr "פרטי הפועל"
+
+#: admin/partials/verb-form.php:44
+msgid "פועל בלאדינו (צורת המקור)"
+msgstr "פועל בלאדינו (צורת המקור)"
+
+#: admin/partials/verb-form.php:51
+msgid "הזן את צורת המקור של הפועל בלאדינו בתעתיק עברי. לדוגמה: \"אב'לאר\"."
+msgstr "הזן את צורת המקור של הפועל בלאדינו בתעתיק עברי. לדוגמה: \"אב'לאר\"."
+
+#: admin/partials/verb-form.php:56
+msgid "תרגום לעברית"
+msgstr "תרגום לעברית"
+
+#: admin/partials/verb-form.php:63
+msgid "הזן את התרגום לעברית של הפועל. לדוגמה: \"לדבר\"."
+msgstr "הזן את התרגום לעברית של הפועל. לדוגמה: \"לדבר\"."
+
+#: admin/partials/verb-form.php:69
+msgid "הטיות הפועל"
+msgstr "הטיות הפועל"
+
+#: admin/partials/verb-form.php:72
+msgid "הזן את ההטיות של הפועל בכל זמן ובכל גוף."
+msgstr "הזן את ההטיות של הפועל בכל זמן ובכל גוף."
+
+#: admin/partials/verb-form.php:104
+msgid "הערות והסברים"
+msgstr "הערות והסברים"
+
+#: admin/partials/verb-form.php:107
+msgid "הערות (אופציונלי)"
+msgstr "הערות (אופציונלי)"
+
+#: admin/partials/verb-form.php:110
+msgid "הוסף כאן הערות או הסברים לגבי הפועל והשימוש בו."
+msgstr "הוסף כאן הערות או הסברים לגבי הפועל והשימוש בו."
+
+#: admin/partials/verb-form.php:116
+msgid "עדכון הפועל"
+msgstr "עדכון הפועל"
+
+#: admin/partials/verb-form.php:116
+msgid "הוספת פועל"
+msgstr "הוספת פועל"
+
+#: admin/partials/verb-form.php:122
+msgid "מדריך עזר להטיית פעלים בלאדינו"
+msgstr "מדריך עזר להטיית פעלים בלאדינו"
+
+#: admin/partials/verb-form.php:125
+msg

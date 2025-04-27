@@ -1,0 +1,93 @@
+/**
+ * CSS עבור תמיכה ב-RTL במנוע הטיית פעלים בלאדינו
+ * 
+ * @package Ladino_Verb_Conjugator
+ */
+
+/* הגדרות כלליות ל-RTL */
+.ladino-conjugator-container {
+    direction: rtl;
+    text-align: right;
+}
+
+/* התאמת מחוון טעינה */
+.ladino-loading {
+    left: 15px;
+    right: auto;
+}
+
+/* התאמת כפתורים בתיבת החיפוש */
+#ladino-show-all-verbs {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* התאמת תוצאות החיפוש */
+.ladino-verb-item {
+    text-align: right;
+}
+
+/* התאמת טבלת ההטיות */
+.ladino-person {
+    text-align: right;
+}
+
+.ladino-form {
+    text-align: right;
+}
+
+/* התאמת הודעה צפה */
+.ladino-toast {
+    right: 20px;
+    left: auto;
+}
+
+/* התאמת אייקונים */
+.ladino-icon-share {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* התאמות לתמיכה בדפדפנים ישנים */
+.ladino-conjugator-container * {
+    letter-spacing: 0;
+}
+
+/* התאמות לפריסת הזמנים */
+@media (min-width: 768px) {
+    .ladino-tenses-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* תיקון הופעת גופנים */
+.ladino-conjugator-container {
+    font-family: 'Assistant', 'Rubik', 'Heebo', sans-serif;
+}
+
+/* תיקון כיוון אנימציות */
+.elementor-widget-ladino_conjugator .ladino-verb-item:hover {
+    transform: translateX(5px);
+}
+
+/* תיקוני פריסה מיוחדים ל-RTL */
+.ladino-conjugator-guide-item {
+    direction: rtl;
+}
+
+.ladino-verb-title,
+.ladino-verb-meaning,
+.ladino-tense-title {
+    direction: rtl;
+}
+
+/* תיקוני שוליים ל-RTL */
+.ladino-verb-item {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* תאימות לתוספים אחרים בתצוגת RTL */
+body.rtl .ladino-conjugator-container {
+    direction: rtl;
+}

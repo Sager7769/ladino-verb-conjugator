@@ -1,0 +1,120 @@
+/**
+ * CSS עבור ווידג'ט אלמנטור של מנוע הטיית פעלים בלאדינו
+ * 
+ * @package Ladino_Verb_Conjugator
+ */
+
+/* סגנונות ייעודיים לווידג'ט אלמנטור */
+.elementor-widget-ladino_conjugator {
+    direction: rtl;
+}
+
+/* עיצוב הווידג'ט */
+.elementor-widget-ladino_conjugator .ladino-conjugator-container {
+    margin: 0;
+    width: 100%;
+}
+
+/* התאמה לעיצוב אלמנטור */
+.elementor-widget-ladino_conjugator .ladino-conjugator-title {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+.elementor-widget-ladino_conjugator .ladino-verb-title {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+/* תצוגה רספונסיבית בהתאם להגדרות אלמנטור */
+@media (max-width: 1024px) {
+    .elementor-widget-ladino_conjugator .ladino-tenses-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-widget-ladino_conjugator .ladino-conjugator-guide-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* תאימות לסגנונות אלמנטור */
+.elementor-widget-ladino_conjugator input[type="text"],
+.elementor-widget-ladino_conjugator button {
+    transition: all 0.3s;
+}
+
+/* אנימציות עיצוב מותאמות אלמנטור */
+.elementor-widget-ladino_conjugator .ladino-verb-item {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.elementor-widget-ladino_conjugator .ladino-verb-item:hover {
+    transform: translateX(-5px);
+}
+
+/* סגנון אלמנטור עבור כפתורים */
+.elementor-widget-ladino_conjugator #ladino-show-all-verbs {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1;
+    padding: 12px 24px;
+}
+
+/* התאמות צבעים לאלמנטור */
+.elementor-widget-ladino_conjugator .ladino-loading .ladino-spinner {
+    border-top-color: currentColor;
+}
+
+/* קו פריט ברשימה */
+.elementor-widget-ladino_conjugator .ladino-verb-list {
+    border: none;
+    box-shadow: none;
+}
+
+.elementor-widget-ladino_conjugator .ladino-verb-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* תצוגת גופנים משופרת */
+.elementor-widget-ladino_conjugator .ladino-verb-form {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/* שיפור מראה בתבניות אלמנטור כהות */
+.elementor-widget-ladino_conjugator.elementor-element-dark-mode .ladino-conjugator-container {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: inherit;
+}
+
+.elementor-widget-ladino_conjugator.elementor-element-dark-mode .ladino-verb-display {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elementor-widget-ladino_conjugator.elementor-element-dark-mode .ladino-tense-block {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.elementor-widget-ladino_conjugator.elementor-element-dark-mode .ladino-verb-title,
+.elementor-widget-ladino_conjugator.elementor-element-dark-mode .ladino-tense-title {
+    color: inherit;
+}
+
+/* תאימות לתוספים אחרים של אלמנטור */
+.elementor-widget-ladino_conjugator.elementor-widget-mobile-align-center .ladino-conjugator-search {
+    justify-content: center;
+}
+
+.elementor-widget-ladino_conjugator.elementor-widget-mobile-align-left .ladino-conjugator-search {
+    justify-content: flex-start;
+}
+
+.elementor-widget-ladino_conjugator.elementor-widget-mobile-align-right .ladino-conjugator-search {
+    justify-content: flex-end;
+}

@@ -1,0 +1,247 @@
+/**
+ * CSS רספונסיבי עבור מנוע הטיית פעלים בלאדינו
+ * 
+ * @package Ladino_Verb_Conjugator
+ */
+
+/* מסכים קטנים וניידים */
+@media (max-width: 576px) {
+    /* מיכל ראשי */
+    .ladino-conjugator-container {
+        padding: 15px;
+        margin: 0;
+    }
+    
+    /* כותרת ראשית */
+    .ladino-conjugator-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    /* מדריך תעתיק */
+    .ladino-conjugator-guide {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .ladino-conjugator-guide h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .ladino-conjugator-guide-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .ladino-conjugator-guide-item {
+        padding: 6px 3px;
+        font-size: 12px;
+    }
+    
+    /* תיבת חיפוש */
+    .ladino-conjugator-search {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    #ladino-verb-search {
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    #ladino-show-all-verbs {
+        width: 100%;
+        margin-right: 0;
+        padding: 10px;
+    }
+    
+    /* תוצאות חיפוש */
+    .ladino-verb-item {
+        padding: 10px;
+    }
+    
+    /* תצוגת הפועל */
+    .ladino-verb-header {
+        padding: 15px;
+    }
+    
+    .ladino-verb-title {
+        font-size: 24px;
+    }
+    
+    .ladino-verb-meaning {
+        font-size: 16px;
+    }
+    
+    /* תצוגת זמנים */
+    .ladino-tenses-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .ladino-tense-block {
+        padding: 10px;
+    }
+    
+    .ladino-tense-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .ladino-form {
+        font-size: 16px;
+    }
+    
+    /* הערות */
+    .ladino-note {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+/* טאבלטים (דיוק בינוני) */
+@media (min-width: 577px) and (max-width: 767px) {
+    /* מיכל ראשי */
+    .ladino-conjugator-container {
+        padding: 15px;
+    }
+    
+    /* כותרת ראשית */
+    .ladino-conjugator-title {
+        font-size: 24px;
+    }
+    
+    /* מדריך תעתיק */
+    .ladino-conjugator-guide-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* תיבת חיפוש */
+    #ladino-verb-search {
+        padding: 10px;
+    }
+    
+    /* תצוגת זמנים */
+    .ladino-tenses-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* טאבלטים (דיוק גבוה) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* מדריך תעתיק */
+    .ladino-conjugator-guide-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    /* תצוגת זמנים */
+    .ladino-tenses-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .ladino-tense-block {
+        padding: 12px;
+    }
+}
+
+/* מחשבים ניידים */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* מדריך תעתיק */
+    .ladino-conjugator-guide-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    /* תצוגת זמנים */
+    .ladino-tenses-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* מסכים גדולים */
+@media (min-width: 1200px) {
+    /* הגדלת הגופן במסכים גדולים */
+    .ladino-conjugator-container {
+        max-width: 1200px;
+        font-size: 16px;
+    }
+    
+    .ladino-conjugator-title {
+        font-size: 32px;
+    }
+    
+    .ladino-verb-title {
+        font-size: 36px;
+    }
+    
+    .ladino-verb-meaning {
+        font-size: 20px;
+    }
+    
+    .ladino-tense-title {
+        font-size: 20px;
+    }
+    
+    .ladino-form {
+        font-size: 20px;
+    }
+}
+
+/* מצב כהה (אם האתר תומך במצב כהה) */
+@media (prefers-color-scheme: dark) {
+    .ladino-conjugator-container.dark-mode {
+        background-color: #2d2d2d;
+        color: #f0f0f0;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-conjugator-title,
+    .ladino-conjugator-container.dark-mode .ladino-verb-title,
+    .ladino-conjugator-container.dark-mode .ladino-tense-title {
+        color: #a3c9ff;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-conjugator-guide {
+        background-color: #3d3d3d;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-conjugator-guide-item {
+        background-color: #4d4d4d;
+        border-color: #555;
+        color: #f0f0f0;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-verb-display {
+        background-color: #3d3d3d;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-tense-block {
+        background-color: #2d2d2d;
+        border-color: #555;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-note {
+        background-color: #2d2d2d;
+        border-color: #555;
+    }
+    
+    .ladino-conjugator-container.dark-mode .ladino-info-content {
+        background-color: #3d3d3d;
+    }
+    
+    .ladino-conjugator-container.dark-mode #ladino-verb-search {
+        background-color: #3d3d3d;
+        color: #f0f0f0;
+        border-color: #555;
+    }
+}
+
+/* תמיכה בהנגשה */
+@media (prefers-reduced-motion: reduce) {
+    .ladino-conjugator-container * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

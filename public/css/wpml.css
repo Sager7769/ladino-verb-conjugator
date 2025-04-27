@@ -1,0 +1,125 @@
+/**
+ * CSS עבור תמיכה ב-WPML במנוע הטיית פעלים בלאדינו
+ * 
+ * @package Ladino_Verb_Conjugator
+ */
+
+/* הגדרות כלליות לתמיכה בריבוי שפות */
+.ladino-conjugator-container {
+    /* הגדרות ברירת מחדל עבור עברית (RTL) */
+    direction: rtl;
+    text-align: right;
+}
+
+/* התאמה לשפות LTR */
+html:not([dir="rtl"]) .ladino-conjugator-container,
+html[dir="ltr"] .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-en .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-fr .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-es .ladino-conjugator-container {
+    direction: ltr;
+    text-align: left;
+}
+
+/* התאמת מחוון טעינה בשפות LTR */
+html[dir="ltr"] .ladino-loading {
+    left: auto;
+    right: 15px;
+}
+
+/* התאמת כפתורים בתיבת החיפוש בשפות LTR */
+html[dir="ltr"] #ladino-show-all-verbs {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* התאמת תוצאות החיפוש בשפות LTR */
+html[dir="ltr"] .ladino-verb-item {
+    text-align: left;
+}
+
+/* התאמת טבלת ההטיות בשפות LTR */
+html[dir="ltr"] .ladino-person {
+    text-align: left;
+}
+
+html[dir="ltr"] .ladino-form {
+    text-align: left;
+}
+
+/* התאמת הודעה צפה בשפות LTR */
+html[dir="ltr"] .ladino-toast {
+    right: auto;
+    left: 20px;
+}
+
+/* התאמת אייקונים בשפות LTR */
+html[dir="ltr"] .ladino-icon-share {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/* התאמת אפקטים אנימציה בשפות LTR */
+html[dir="ltr"] .elementor-widget-ladino_conjugator .ladino-verb-item:hover {
+    transform: translateX(-5px);
+}
+
+/* תיקוני פריסה מיוחדים לשפות LTR */
+html[dir="ltr"] .ladino-conjugator-guide-item,
+html[dir="ltr"] .ladino-verb-title,
+html[dir="ltr"] .ladino-verb-meaning,
+html[dir="ltr"] .ladino-tense-title {
+    direction: ltr;
+}
+
+/* תיקוני שוליים לשפות LTR */
+html[dir="ltr"] .ladino-verb-item {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* התאמות לדגל שפה של WPML */
+.ladino-language-switcher {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ladino-language-switcher .wpml-ls-legacy-list-horizontal {
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/* תאימות לתצוגת עריכה של WPML */
+body.wpml-st-translation-editor .ladino-conjugator-container,
+body.wpml-st-translation-editor .ladino-conjugator-guide,
+body.wpml-st-translation-editor .ladino-verb-display {
+    max-width: 100%;
+    margin: 0;
+    box-shadow: none;
+    border: 1px dashed #ddd;
+}
+
+/* התאמות לשפות ספציפיות */
+
+/* ספרדית */
+html:lang(es) .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-es ~ .ladino-conjugator-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* צרפתית */
+html:lang(fr) .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-fr ~ .ladino-conjugator-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* אנגלית */
+html:lang(en) .ladino-conjugator-container,
+.wpml-ls-statics-shortcode_actions.wpml-ls-links .wpml-ls-item-en ~ .ladino-conjugator-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* תיקוני גופן כלליים לתמיכה בשפות שונות */
+.ladino-conjugator-container {
+    /* גופנים לשפות לטיניות
